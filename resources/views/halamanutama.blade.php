@@ -119,6 +119,46 @@
         </div>
     </div>
 </section>
+
+<main class="max-w-7xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
+            <img src="image/suzuki_jimny.png" alt="suzuki jimny" class="w-full h-48 object-cover rounded-lg mb-4"> 
+            <h3 class="mt-3 font-semibold text-gray-800">Suzuki Jimny(2022)</h3>
+            <p class="text-red-600 font-bold">Rp 390.000.000</p>
+            <div class="flex justify-end mt-2"> <img src="logo/Shopingcart.png" alt="shopingcart" class="w-6 h-6"> 
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
+            <img src="image/honda-crv.png" alt="honda crv" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="mt-3 font-semibold text-gray-800">Honda CRV (2019)</h3>
+            <p class="text-red-600 font-bold">Rp 235.000.000</p>
+            <div class="flex justify-end mt-2"> <img src="logo/Shopingcart.png" alt="shopingcart" class="w-6 h-6"> 
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-gray-800 text-gray-100 mt-12">
+    <div class="max-w-7xl mx-auto px-6 py-9 grid grid-cols-1 md:grid-cols-3 gap-6 ">
+        <div>
+            <h4 class="font-bold md-4">Support</h4>
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:text-white">Hubungi Kami</a></li>
+                <li><a href="#" class="hover:text-white">Tentang & kebijakan Product</a></li>
+                <li><a href="#" class="hover:text-white">Panduan Penggunaan</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="font-bold md-4 ">NEWSLETTER</h4>
+            <form class="flex flex-col space-y-3">
+                <input type="email" class="px-4 py-2 rounded bg-white focus:outline-none text-gray-800" placeholder="Masukkan email disini">
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500 transition">Kirim</button>
+            </form>
+        </div>
+    </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {

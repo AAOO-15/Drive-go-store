@@ -49,32 +49,10 @@
 
         <!-- kanan -->
         <div class="relative flex items-center bg-gray-200 h-12 px-3 rounded ml-auto">
-                <svg 
-                    xmlns='http://www.w3.org/2000/svg'
-                    width='2em'
-                    height='2em'
-                    fill='none'
-                    viewBox='0 0 24 24'
-                    stroke='black'
-                    stroke-width='1.5'
-                    class='icon'
-                    stroke-linejoin='round'
-                    stroke-linecap='round'>
-                    <circle r="1" cy="21" cx="9"></circle>
-                    <circle r="1" cy="21" cx="20"></circle>
-                    <path 
-                        d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-                </svg>
+                <img src="logo/cart.png" alt="shopping cart" class="w-6 h-6">
         </div>
             <div class="relative flex items-center bg-gray-200 h-12 px-3 rounded ml-4">
-                <svg xmlns="http://www.w3.org/2000/svg" 
-                     fill="none" viewBox="0 0 24 24" 
-                     stroke="currentColor" stroke-width="1.5" 
-                     class="w-6 h-6 text-black">
-                  <path stroke-linecap="round" stroke-linejoin="round" 
-                        d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 
-                           1.79-4 4 1.79 4 4 4zm0 2c-3.33 0-6 2.67-6 
-                           6h12c0-3.33-2.67-6-6-6z"/>
+                <img src="logo/user.png" alt="user profile" class="w-6 h-6">
                 </svg>
             </div>
     </div>
